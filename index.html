@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>pFood</title>
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon" />
+  <link href="assets/img/apple-touch-icon.ico" rel="apple-touch-icon" />
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i"
+    rel="stylesheet" />
+
+  <!-- Vendor CSS Files -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css" />
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+</head>
+
+<body>
+  <header class="bg-header">
+
+    <!-- ================ Start navigatin bar ================= -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand text-white fw-bold" href="#" data-bs-toggle="tooltip" data-bs-title="FoodieXpress"
+          data-bs-placement="bottom" style="font-size: 25px;">PFood</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item px-2">
+              <a class="nav-link" href="#events">Events</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link " href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item px-3">
+              <a class="nav-link " href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End navigatin bar -->
+
+
+    <!-- ================ Start Hero Section ================= -->
+    <section id="home" class="hero-section py-5">
+      <div class="container py-3">
+        <div class="row g-5">
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="col-12 col-lg-6">
+              <h1 class="text-white fw-bold">
+                Delicious Delivered: Discover a World of Flavors at Your
+                Doorstep
+              </h1>
+              <p class="text-white pt-4">
+                Discover a wide range of delectable dishes from various
+                cuisines. From appetizers and main courses to desserts and
+                beverages, we have something to satisfy every craving.
+              </p>
+              <button class="btn mt-5">Order Now</button>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="d-flex justify-content-end">
+                <img src="assets/hero.png" class="hero-img" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  End Hero Section -->
+  </header>
+  <main>
+    <!-- ============ Start of Menu Section ================== -->
+    <section id="menu" class="menu section-bg">
+      <div class="container max-width-container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Menu</h2>
+          <p>Check Our Tasty Menu</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-drinks">Drinks</li>
+              <li data-filter=".filter-salads">Salads</li>
+              <li data-filter=".filter-specialty">Specialty</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-6 menu-item filter-drinks">
+            <img src="assets/img/menu/schweppes-tonic.jpg" class="menu-img" alt="" />
+            <div class="menu-item-details">
+              <div class="menu-content">
+                <a href="#"> Schweppes Tonic</a><span>₹ 50 </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Menu Section -->
+
+    <!-- ========== Start Events Section ============== -->
+    <section id="events" class="events">
+      <div class="swiper-container max-width-container">
+        <div class="section-title">
+          <h2>Organize Your <span>Events</span> in our Restaurant</h2>
+        </div>
+
+        <div class="events-slider swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6 d-lg-flex align-items-center">
+                  <img src="assets/img/events/event-birthday.jpg" class="img-fluid" alt="" />
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Birthday Celebrations</h3>
+                  <div class="price">
+                    <p><span>250 dt</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Hosting a Birthday Party at our restaurant is a great way
+                    to bring a large group together for the ultimate
+                    celebration. You can meet with our event manager to plan
+                    all the celebration details:
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Food.</li>
+                    <li><i class="bi bi-check-circle"></i> Drinks.</li>
+                    <li>
+                      <i class="bi bi-check-circle"></i> Decorations and party
+                      layout.
+                    </li>
+                  </ul>
+                  <p>
+                    We will make sure you have a fantastic birthday party.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6 d-lg-flex align-items-center">
+                  <img src="assets/img/events/event-holiday.jpg" class="img-fluid" alt="" />
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Holiday Parties & More</h3>
+                  <div class="price">
+                    <p><span>250 dt</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    The holidays are a hectic time of year. With all the
+                    responsibilities that come along with hosting, the
+                    holidays can come and go without much fun at all. Spend
+                    more time with your family and less time in the kitchen by
+                    having your holiday celebration at pFood. There are
+                    many more types of events that we can host at pFood
+                    like:
+                  </p>
+                  <ul>
+                    <li>
+                      <i class="bi bi-check-circle"></i> Graduation parties.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle"></i> Engagement parties.
+                    </li>
+                    <li>
+                      <i class="bi bi-check-circle"></i> Retirement parties.
+                    </li>
+                  </ul>
+                  <p>We will make sure you have a fantastic event party.</p>
+                </div>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6 d-lg-flex align-items-center">
+                  <img src="assets/img/events/event-baby.jpg" class="img-fluid" alt="" />
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Baby & Bridal Showers</h3>
+                  <div class="price">
+                    <p><span>200dt</span></p>
+                  </div>
+                  <p class="fst-italic">
+                    Both of these events are the perfect way to celebrate your
+                    amazing news! We can create a stress-free way to celebrate
+                    your special occasion for an intimate gathering with
+                    friends and family! We will take care of:
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Set up.</li>
+                    <li><i class="bi bi-check-circle"></i> Food.</li>
+                    <li><i class="bi bi-check-circle"></i> Drinks.</li>
+                  </ul>
+                  <p>
+                    while you focus on the invites, party favors, and
+                    decorations and other details for your event.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Events Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container-fluid max-width-container">
+        <div class="row">
+          <div class="col-lg-5 align-items-stretch video-box">
+            <video width="270" height="480" preload="none" controls muted poster="assets/img/logo/logo.png"
+              src="assets/video/about.mp4"></video>
+          </div>
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+            <div class="content">
+              <h3>Discover <strong>OUR HISTORY</strong></h3>
+              <p>
+                pFood is an Indian restaurant in Nagpur Maharashtra. Embark on a gastronomic journey around the flavors
+                of
+                overseas. Our chef offers a variety of pastas, risottos but
+                also raclette.
+              </p>
+              <p class="fst-italic">WHAT you will taste at our place :</p>
+              <ul>
+                <li>
+                  <i class="bx bx-check-double"></i> Pasta with Parmigiano
+                  (White Sauce & Red Sauce).
+                </li>
+                <li><i class="bx bx-check-double"></i> Risottos.</li>
+                <li><i class="bx bx-check-double"></i> Salads.</li>
+                <li><i class="bx bx-check-double"></i> Raclette.</li>
+              </ul>
+              <p>
+                Choose your pasta (Spaghetti, Penne, Farfalle, Tagliatelle)
+                and it is served after dipping in a wheel of parmigiano.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+      <div class="container-fluid max-width-container">
+        <div class="section-title">
+          <h2>Some photos from <span>Our Restaurant</span></h2>
+        </div>
+        <div class="row g-2">
+          <div id="gallery-container" class="row g-2 justify-content-center "></div>
+        </div>
+    </section>
+    <!-- End Gallery Section -->
+
+
+    <!-- ========= Start Testimonials Section ============= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container position-relative max-width-container">
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonial-1.jpeg" class="testimonial-img" alt="" />
+                <h3>Bobby Ceiser</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  The best pasta in Tunis. Very good dishes, greedy portions,
+                  appetizing presentations, to be repeated and I strongly
+                  advise to all lovers of good pasta.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonial-2.jpeg" class="testimonial-img" alt="" />
+                <h3>Pragati Jain</h3>
+                <h4>Designer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Freshness, variety, quality and impeccable service I will
+                  certainly come back.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonial-3.jpeg" class="testimonial-img" alt="" />
+                <h3>Mithilesh Kumar</h3>
+                <h4>Store Owner</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  For pasta lovers 🍝 pFood Is the best address a fast
+                  service, nice setting and the dishes are too too good .👌🏻 I
+                  highly recommend it.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonial-4.jpeg" class="testimonial-img" alt="" />
+                <h3>Savita</h3>
+                <h4>Freelancer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  A real treat at pFood ❤️ This dish is called "Hasta la
+                  Vistas Baby" 😅 and I chose tagliatelle as the pasta ❤️
+                  Price: 25DT Rating: 10/10.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonial-5.jpeg" class="testimonial-img" alt="" />
+                <h3>Amit</h3>
+                <h4>Entrepreneur</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  For years the quality is excellent this place does not
+                  change but the menu is constantly enriched.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container max-width-container">
+        <div class="section-title">
+          <h2><span>Contact</span> Us</h2>
+          <p>Show Our Location Map.</p>
+        </div>
+
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d436659.0376882479!2d75.47842772216332!3d31.237383514897598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a5f44ee117d5f%3A0x83b4d13a1cb834d0!2sLovely%20Sweets!5e0!3m2!1sen!2sin!4v1698686596353!5m2!1sen!2sin"
+            width="100%" height="350" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+      <div class="container mt-5 max-width-container">
+        <div class="info-wrap">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 info">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Location:</h4>
+              <p>Nagpur<br />Maharashtra</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-clock"></i>
+              <h4>Open Hours:</h4>
+              <p>Monday-Friday:<br />10:00 AM - 10:00 PM</p>
+              <p>Saturday-Sunday:<br />09:00 AM - 11:00 PM</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-envelope"></i>
+              <h4>Email:</h4>
+              <p>pFood@example.com</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-phone"></i>
+              <h4>Call:</h4>
+              <p>(+91) 7024573322</p>
+            </div>
+          </div>
+        </div>
+
+        <form role="form" class="email-form">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required />
+            </div>
+          </div>
+          <div class="form-group mt-3">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required />
+          </div>
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">
+              Your message has been sent. Thank you!
+            </div>
+          </div>
+          <div class="text-center">
+            <button type="reset">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>pFood</h3>
+      <p>
+        pFood is specialized in Pasta with Parmigiano, Risotto, Salads &
+        Raclette
+      </p>
+      <div class="social-links">
+        <a href="https://www.facebook.com/pFoodtn/" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/pFoodtn/" class="instagram"><i class="bx bxl-instagram"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>pFood</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by
+        <a href="https://github.com/pratikkhulge" target="_blank">Pratik Khulge</a>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <!-- <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script> -->
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+<!-- End Of Body Tag -->
+
+<!-- Start of Script Tag -->
+<script>
+  // fetches menu items from a JSON file and dynamically generates HTML elements to display the menu items on the webpage.
+  $(document).ready(function () {
+    // Fetch menu items from JSON file
+    $.getJSON('menu.json', function (data) {
+      const menuContainer = $('.menu-container');
+
+      // Iterate through the menu items and create HTML elements
+      $.each(data, function (index, item) {
+        const menuItem = `
+                        <div class="col-lg-6 menu-item filter-${item.category}">
+                            <img src="${item.image}" class="menu-img" alt="" />
+                            <div class="menu-item-details">
+                                <div class="menu-content">
+                                    <a href="#">${item.name}</a><span>${item.price} </span>
+                                </div>
+                                ${item.description ? `<div class="menu-ingredients">${item.description}</div>` : ''}
+                            </div>
+                        </div>
+                    `;
+        menuContainer.append(menuItem);
+      });
+    }).fail(function (jqXHR, textStatus, errorThrown) {
+      console.error('Error fetching menu data:', errorThrown);
+    });
+  });
+
+  // fetches gallery images from a JSON file and dynamically generates HTML elements to display the gallery images on the webpage.
+  $(document).ready(function () {
+    // Fetch gallery images from JSON file
+    $.getJSON('gallery.json', function (data) {
+      const galleryContainer = $('#gallery-container');
+
+      // Iterate through the gallery images and create HTML elements
+      $.each(data, function (index, image) {
+        const galleryItem = `
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12">
+              <div class="gallery-item">
+                <a href="${image.image}">
+                  <img src="${image.image}" alt="${image.alt}" class="img-fluid" />
+                </a>
+              </div>
+            </div>
+          `;
+
+        galleryContainer.append(galleryItem);
+      });
+    }).fail(function (jqXHR, textStatus, errorThrown) {
+      console.error('Error fetching gallery images:', errorThrown);
+    });
+  });
+
+  // scrolling behavior for anchor links on the webpage.
+  $(document).ready(function () {
+    // Smooth scrolling for anchor links
+    $("a").on('click', function (event) {
+      if (this.hash !== "") {
+        event.preventDefault();
+        const hash = this.hash;
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 100, function () {
+          window.location.hash = hash;
+        });
+      }
+    });
+  });
+</script>
+<!-- End Of Script Tag -->
+</html>
