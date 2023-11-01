@@ -1,0 +1,65 @@
+[
+  {
+    "category": "specialty",
+    "name": "Cleopatra",
+    "price": "₹ 320 ",
+    "image": "assets/img/menu/cleopatra.jfif",
+    "description": "Fillet Of Sea Bream On A Bed Of Prawns, Shrimps, Mushrooms, Basil Leaves, Zucchinis"
+  },
+  {
+    "category": "drinks",
+    "name": "Fresh Orange Juice",
+    "price": "₹ 70 ",
+    "image": "assets/img/menu/juice.jpeg",
+    "description": ""
+  },
+  {
+    "category": "salads",
+    "name": "Caesar Salad",
+    "price": "₹ 240 ",
+    "image": "assets/img/menu/caesar.jpg",
+    "description": "Heart of Lettuce, Cherry Tomatoes, Grilled Chicken, Parmesan."
+  },
+  {
+    "category": "specialty",
+    "name": "Beffy",
+    "price": "₹ 240 ",
+    "image": "assets/img/menu/beffy.jpg",
+    "description": "Tomato Sauce, Ground Meat, Garlic, Chili Flakes, Parsley."
+  },
+  {
+    "category": "drinks",
+    "name": "Mojito",
+    "price": "₹ 80 ",
+    "image": "assets/img/menu/mojito.jpg",
+    "description": ""
+  },
+  {
+    "category": "salads",
+    "name": "Nut Salad",
+    "price": "₹ 250 ",
+    "image": "assets/img/menu/nut-salad.jpg",
+    "description": "Lettuce, Arugula, Cherry Tomatoes, Grilled Chicken, Goat Cheese, Nut sauce, Balsamic."
+  },
+  {
+    "category": "salads",
+    "name": "Burrata Salad",
+    "price": "₹ 240 ",
+    "image": "assets/img/menu/burrata-salad.jpg",
+    "description": "Burrata, Arugula, Cherry Tomatoes, Balsamic Vinegar, Virgin Olive Oil, Dried Tomatoes"
+  },
+  {
+    "category": "specialty",
+    "name": "Juicy",
+    "price": "₹ 280 ",
+    "image": "assets/img/menu/juicy.jpg",
+    "description": "Minced Meat, Fresh Tomato Sauce, Fresh Paris Marvel, Gratine With Grilled Cheese."
+  },
+  {
+    "category": "specialty",
+    "name": "Juicy",
+    "price": "₹ 280 ",
+    "image": "assets/img/menu/juicy.jpg",
+    "description": "Minced Meat, Fresh Tomato Sauce, Fresh Paris Marvel, Gratine With Grilled Cheese."
+  }
+]
